@@ -1,0 +1,10 @@
+/venv/
+/.idea/
+/.vscode/
+/.git/
+__pycache__
+/*.log
+/*.log.*
+/logs/*
+!/conf/.gitkeep
+/conf/pull_server.yaml

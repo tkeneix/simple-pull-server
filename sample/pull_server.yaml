@@ -1,0 +1,6 @@
+DISCORD:
+  NOTIFY_WEBHOOK: <webhook url>
+  NOTIFY_USERNAME: GitAction
+
+REPOSITORIES:
+  PATH: <path>
