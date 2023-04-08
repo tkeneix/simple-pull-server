@@ -1,0 +1,12 @@
+[Unit]
+Description=Pull Service
+After=network.target
+
+[Service]
+User=str
+WorkingDirectory=/home/str/services/simple-pull-server
+ExecStart=/bin/bash /home/str/services/simple-pull-server/start.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
